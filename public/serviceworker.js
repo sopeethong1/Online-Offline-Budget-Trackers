@@ -4,8 +4,10 @@ self.addEventListener("install", (event) => {
       return cache.addAll([
         "./",
         "./index.html",
+        "index.js",
         "db.js",
         "manifest.webmanifest",
+        "serviceworker.js",
         "style.css",
         "/icons/icon-152x152.png",
         "/icons/icon-192x192.png",
